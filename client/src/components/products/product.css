@@ -1,0 +1,21 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 2%;
+}
+.image {
+  border: 1px solid black;
+}
+
+.card:hover {
+  background-color: rgba(199, 199, 199, 0.357);
+  cursor: pointer;
+}
